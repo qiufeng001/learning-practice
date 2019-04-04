@@ -13,6 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 })
 public class BootstrapApplication {
     public static void main(String[] args) {
-        SpringApplication.run(BootstrapApplication.class, args);;
+        SpringApplication.run(BootstrapApplication.class, args);
+        System.out.println("init done...");
     }
 }
