@@ -1,0 +1,6 @@
+# Auto Configure
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.learning.practice.Configuration.WebMvcConfig,\
+com.learning.practice.Configuration.WebAutoConfiguration,\
+com.learning.practice.Configuration.FreeMarkerAutoConfiguration
+
